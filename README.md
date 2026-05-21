@@ -31,7 +31,8 @@ This project answers the following business questions:
 - Is EV charging infrastructure keeping pace with the growth of EV adoption over time?
 - How green is Washington State's charging infrastructure?
 - Which counties have the highest concentration of renewable energy charging stations?
-
+- Has the pace of new station openings kept up with EV adoption growth over time?
+  
 **Predictive Analytics**
 - Can we predict which zip codes are at risk of becoming underserved as EV adoption grows?
   
@@ -62,12 +63,12 @@ This project answers the following business questions:
 - **ChargePoint dominates** the network market with **46.5% of all stations**, but **Tesla leads DC fast charging**
 - **J1772 is the most used connector type**, representing nearly **80% of all connectors** in Washington State
 
-**Infrastructure Growth**
-- EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
-
 **Sustainability**
 - Only **0.31% of charging stations** run on renewable energy sources
 - **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations — each with only one renewable station
+
+ **Infrastructure Growth**
+- EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
 
 ---
 
@@ -146,7 +147,7 @@ Tableau Dashboards (4)
 **Star Schema:**
 - **Fact table:** EVCoverage — zip code level metrics (EVCount, TotalChargers, EVsPerCharger, CoverageGapFlag)
 - **Dimensions:** Vehicle, Station, Geography, Calendar
-- **Surrogate keys** used throughout following data warehouse best practices
+- **Surrogate keys** used throughout the following data warehouse best practices
 - **Coverage Gap Flag** defined as 1 when EVsPerCharger > 10 or TotalChargers = 0
 
 **Star Schema Diagram:**

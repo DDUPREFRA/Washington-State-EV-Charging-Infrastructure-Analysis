@@ -254,9 +254,9 @@ Download them directly from the source:
 
 - **EV Population Data:** [data.wa.gov](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2)
 - **Alternative Fuel Stations:** [afdc.energy.gov](https://afdc.energy.gov/stations#/find/nearest)
+  
+---
 
-## 👤 Author
-...
 ## Author
 **David Dupre, MSBA**
 Loyola University Chicago — Quinlan School of Business

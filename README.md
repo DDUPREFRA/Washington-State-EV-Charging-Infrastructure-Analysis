@@ -206,20 +206,14 @@ and TotalChargers.
 
 **Best model: Random Forest** — saved as `ev_coverage_model.pkl`
 
-> **Note on Model Limitations:** The high accuracy (97.44%) reflects a fundamental 
-> limitation — CoverageGapFlag was mathematically derived from the same three features 
-> used for prediction (EVCount, StationCount, TotalChargers). Specifically:
-> - CoverageGapFlag = 1 when EVCount / TotalChargers > 10 or TotalChargers = 0
-> - The model is essentially learning the rule we explicitly defined in SQL
-> - This creates circular reasoning — the target variable is a direct function of the features
+> **Note on Model Limitations:** The model achieves 97.44% accuracy but this number 
+> is misleading. The target variable (CoverageGapFlag) was directly calculated from 
+> the same features used to train the model — meaning the model is essentially 
+> learning a rule we already defined rather than discovering new patterns.
 >
-> **What this means:** The model confirms our business rule rather than discovering 
-> new patterns. A truly predictive model would require independent features such as:
-> - Population density and demographics per zip code
-> - Income levels and home ownership rates
-> - Proximity to highways and commercial areas
-> - Historical EV adoption growth rates
-> - Urban vs rural classification
+> A more meaningful model would use independent cross-sectional data such as population density, 
+> income levels, or demographic information to predict which areas are at risk 
+> before the gap actually develops.
 
 ---
 

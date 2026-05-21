@@ -41,18 +41,18 @@ This project answers the following business questions:
 ## Key Findings
 
 **Coverage Gap**
-- EV charging infrastructure follows a **heavily right-skewed distribution** — a small number of zip codes are extremely well served, while the vast majority are critically underserved
+- EV charging infrastructure follows a **heavily right-skewed distribution:** a small number of zip codes are extremely well served, while the vast majority are critically underserved
 - **91% of Washington State zip codes** (527 out of 581) are classified as underserved based on a threshold of more than 10 EVs per charger
 - **Zip codes 98177 (Seattle), 98053 (Carnation), and 98146 (Burien)**, all in King County, are the most underserved with **up to 1,694 EVs per charger**
-- **Kent (98038)** has **2,436 registered EVs and zero charging stations** — the largest completely unserved community in Washington, followed by Carnation (986 EVs) and Lacey (795 EVs)
+- **Kent (98038)** has **2,436 registered EVs and zero charging stations,** and is the largest completely unserved community in Washington, followed by Carnation (986 EVs) and Lacey (795 EVs)
 
 **Best Served**
-- **Zip codes 98164, 98124, and 98195 (Seattle)** are the best served with ratios as low as **0.05 EVs per charger** — commercial districts are oversupplied while surrounding residential areas are critically underserved
+- **Zip codes 98164, 98124, and 98195 (Seattle)** are the best served with ratios as low as **0.05 EVs per charger:** commercial districts are oversupplied while surrounding residential areas are critically underserved
 - **Lincoln County** is among the best served counties for DC fast charging, with only **9.25 EVs per DC fast charger**
 
 **County Level**
 - **King and Snohomish counties** have the highest EV density with **over 1,200 EVs per zip code on average**
-- **King County** has 139,296 EVs but only **15 DC fast chargers** — **nearly 9,000 EVs per fast charger** despite being the largest EV market
+- **King County** has 139,296 EVs but only **15 DC fast chargers** with **nearly 9,000 EVs per fast charger** despite being the largest EV market
 - **Island County** has the worst ratio among counties with infrastructure at **119 EVs per charger**, followed by **Snohomish at 91.5**
 - **Garfield and Ferry counties** have zero EV charging infrastructure despite having registered EVs
 
@@ -65,7 +65,7 @@ This project answers the following business questions:
 
 **Sustainability**
 - Only **0.31% of charging stations** run on renewable energy sources
-- **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations — each with only one station
+- **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations, each with only one station
 
  **Infrastructure Growth**
 - EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
@@ -276,4 +276,4 @@ Loyola University Chicago — Quinlan School of Business
 of all vehicles in each county are electric, giving a truer picture of EV adoption beyond raw counts
 - Expand the analysis to other high-EV adoption states such as California, Oregon, and New York
 - Connect to the live DOE Alternative Fuels Station API to keep the dashboard updated in real time
-- Build a genuinely predictive ML model using independent cross-sectional data — population density, income levels, urban classification — to identify zip codes at risk of becoming underserved
+- Build a genuinely predictive ML model using independent cross-sectional data: population density, income levels, and urban classification, to identify zip codes at risk of becoming underserved

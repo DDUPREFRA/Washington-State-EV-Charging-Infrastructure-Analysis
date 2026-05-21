@@ -62,6 +62,9 @@ This project answers the following business questions:
 - **ChargePoint dominates** the network market with **46.5% of all stations**, but **Tesla leads DC fast charging**
 - **J1772 is the most used connector type**, representing nearly **80% of all connectors** in Washington State
 
+**Infrastructure Growth**
+- EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
+
 **Sustainability**
 - Only **0.31% of charging stations** run on renewable energy sources
 - **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations — each with only one renewable station

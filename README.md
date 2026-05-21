@@ -176,16 +176,16 @@ Washington-State-EV-Charging-Infrastructure-Analysis/
 ├── notebooks/
 │   └── WashingtonStateEVAnalysis.ipynb
 ├── charts/
-│   ├── star_schema.png
+│   ├── washington_state_ev_star_schema.png
 │   ├── chart1_evs_per_charger_distribution.png
 │   ├── chart2_top10_underserved_counties.png
 │   ├── chart3_ev_vs_chargers_scatter.png
 │   ├── chart4_correlation_heatmap.png
 │   └── chart5_bev_vs_phev.png
-│   ├── viz1_coverage_gap_map.png
-│   ├── viz2_ev_adoption_scale.png
-│   ├── viz3_charging_networks.png
-│   └── viz4_sustainability.png
+│   ├── viz1coveragegapmap.png
+│   ├── viz2evadoptionscale.png
+│   ├── viz3chargingnetworks.png
+│   └── viz4sustainability.png
 ├── models/
 │   ├── ev_coverage_model.pkl
 │   └── ev_coverage_feature_columns.pkl

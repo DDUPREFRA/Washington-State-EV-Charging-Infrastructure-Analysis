@@ -146,7 +146,7 @@ Tableau Dashboards (4)
 ![Star Schema](charts/washington_state_ev_star_schema.png)
 
 ---
-
+```
 ## Repository Structure
 Washington-State-EV-Charging-Infrastructure-Analysis/
 ├── sql/

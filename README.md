@@ -236,15 +236,14 @@ and TotalChargers.
 
 **Steps:**
 1. Clone the repository
-2. Copy CSV files to `/tmp/` for PostgreSQL loading:
-```bash
-cp data/Electric_Vehicle_Population_Data.csv /tmp/ev_population.csv
-cp data/alternative_fueling_stations.csv /tmp/alternative_fueling_stations.csv
-```
-3. Run `sql/WashingtonStateEVWarehouseQueries.sql` in pgAdmin to build the warehouse
-4. Run `sql/WashingtonStateEVAnalyticalQueries.sql` for the 16 business queries
-5. Open `notebooks/WashingtonStateEVAnalysis.ipynb` in Jupyter and run all cells
-6. View the interactive dashboards on Tableau Public via the links above
+2. Download the raw data files (see Data Download section)
+3. Open pgAdmin and create a new database called `Washington State EV Coverage`
+4. Run `sql/WashingtonStateEVWarehouseQueries.sql` to build the data warehouse
+5. Update the COPY commands in the SQL file with your local file paths for the CSV files
+6. Run `sql/WashingtonStateEVAnalyticalQueries.sql` for the 16 business queries
+7. Open `notebooks/WashingtonStateEVAnalysis.ipynb` in Jupyter and run all cells
+8. Update the database connection string in the notebook with your PostgreSQL credentials
+9. View the interactive dashboards on Tableau Public via the links above
 
 ---
 

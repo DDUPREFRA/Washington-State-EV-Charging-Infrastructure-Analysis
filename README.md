@@ -77,7 +77,7 @@ Analyzes EV charging coverage at zip code and county level across Washington Sta
 
 **Dashboard 2 — The Scale: How Big is EV Adoption?**
 Examines EV adoption growth, electric vehicle types, and top makes across Washington State.
-![Dashboard 2](charts/viz2evadoptionscale.png)
+![Dashboard 2](charts/viz2adoptionscale.png)
 🔗 [View Dashboard 2](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard2/Dashboard2TheScaleHowBigistheEVAdoption)
 
 **Dashboard 3 — The Infrastructure: Who Provides Charging?**

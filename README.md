@@ -148,11 +148,7 @@ Tableau Dashboards (4)
 ---
 
 ## Repository Structure
-```
-Washington-State-EV-Coverage-Analysis/
-├── data/
-│   ├── Electric_Vehicle_Population_Data.csv
-│   └── alternative_fueling_stations.csv
+Washington-State-EV-Charging-Infrastructure-Analysis/
 ├── sql/
 │   ├── WashingtonStateEVWarehouseQueries.sql
 │   └── WashingtonStateEVAnalyticalQueries.sql
@@ -176,7 +172,7 @@ Washington-State-EV-Coverage-Analysis/
 ├── notebooks/
 │   └── WashingtonStateEVAnalysis.ipynb
 ├── charts/
-│   ├── washington_state_ev_star_schema.png
+│   ├── star_schema.png
 │   ├── chart1_evs_per_charger_distribution.png
 │   ├── chart2_top10_underserved_counties.png
 │   ├── chart3_ev_vs_chargers_scatter.png
@@ -252,6 +248,15 @@ cp data/alternative_fueling_stations.csv /tmp/alternative_fueling_stations.csv
 
 ---
 
+## Data Download
+The raw data files are not included in this repository due to size constraints.
+Download them directly from the source:
+
+- **EV Population Data:** [data.wa.gov](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2)
+- **Alternative Fuel Stations:** [afdc.energy.gov](https://afdc.energy.gov/stations#/find/nearest)
+
+## 👤 Author
+...
 ## Author
 **David Dupre, MSBA**
 Loyola University Chicago — Quinlan School of Business

@@ -72,22 +72,22 @@ This project answers the following business questions:
 
 **Dashboard 1 — The Problem: Where Are the Gaps?**
 Analyzes EV charging coverage at zip code and county level across Washington State.
-![Dashboard 1](viz1_coverage_gap_map)
+![Dashboard 1](viz1coveragegapmap)
 🔗 [View Dashboard 1](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard1/Dashboard1TheProblemWhereAretheGaps)
 
 **Dashboard 2 — The Scale: How Big is EV Adoption?**
 Examines EV adoption growth, electric vehicle types, and top makes across Washington State.
-![Dashboard 2](viz2_ev_adoption_scale)
+![Dashboard 2](viz2evadoptionscale)
 🔗 [View Dashboard 2](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard2/Dashboard2TheScaleHowBigistheEVAdoption)
 
 **Dashboard 3 — The Infrastructure: Who Provides Charging?**
 Explores charging network market share, connector types, and DC fast charging availability.
-![Dashboard 3](viz3_charging_networks)
+![Dashboard 3](viz3chargingnetworks)
 🔗 [View Dashboard 3](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard3/Dashboard3TheInfrastructureWhoProvidesCharging)
 
 **Dashboard 4 — Sustainability & Bright Spots**
 Highlights green charging infrastructure, renewable energy stations, and best served communities.
-![Dashboard 4](viz4_sustainability)
+![Dashboard 4](viz4sustainability)
 🔗 [View Dashboard 4](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard4/Dashboard4SustainabilityandBrightSpots)
 
 ---

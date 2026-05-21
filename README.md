@@ -72,18 +72,22 @@ This project answers the following business questions:
 
 **Dashboard 1 — The Problem: Where Are the Gaps?**
 Analyzes EV charging coverage at zip code and county level across Washington State.
+![Dashboard 1](charts/viz1_coverage_gap_map.png)
 🔗 [View Dashboard 1](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard1/Dashboard1TheProblemWhereAretheGaps)
 
 **Dashboard 2 — The Scale: How Big is EV Adoption?**
 Examines EV adoption growth, electric vehicle types, and top makes across Washington State.
+![Dashboard 2](charts/viz2_ev_adoption_scale.png)
 🔗 [View Dashboard 2](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard2/Dashboard2TheScaleHowBigistheEVAdoption)
 
 **Dashboard 3 — The Infrastructure: Who Provides Charging?**
 Explores charging network market share, connector types, and DC fast charging availability.
+![Dashboard 3](charts/viz3_charging_networks.png)
 🔗 [View Dashboard 3](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard3/Dashboard3TheInfrastructureWhoProvidesCharging)
 
 **Dashboard 4 — Sustainability & Bright Spots**
 Highlights green charging infrastructure, renewable energy stations, and best served communities.
+![Dashboard 4](charts/viz4_sustainability.png)
 🔗 [View Dashboard 4](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard4/Dashboard4SustainabilityandBrightSpots)
 
 ---
@@ -178,6 +182,10 @@ Washington-State-EV-Charging-Infrastructure-Analysis/
 │   ├── chart3_ev_vs_chargers_scatter.png
 │   ├── chart4_correlation_heatmap.png
 │   └── chart5_bev_vs_phev.png
+│   ├── viz1_coverage_gap_map.png
+│   ├── viz2_ev_adoption_scale.png
+│   ├── viz3_charging_networks.png
+│   └── viz4_sustainability.png
 ├── models/
 │   ├── ev_coverage_model.pkl
 │   └── ev_coverage_feature_columns.pkl

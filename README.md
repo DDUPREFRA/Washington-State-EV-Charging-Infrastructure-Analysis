@@ -268,8 +268,8 @@ Loyola University Chicago — Quinlan School of Business
 ---
 
 ## Future Work
-- Incorporate Washington State total vehicle registration data to calculate EV market penetration by county
-- Add demographic and income data to identify equity dimensions of charging gaps
-- Expand analysis to other high-EV states (California, Oregon, New York)
-- Build a real-time dashboard connected to live DOE charging station API
-- Develop a genuinely predictive ML model using independent demographic and geographic features to identify zip codes at risk of becoming underserved before it happens
+- Incorporate total vehicle registration data to calculate what percentage 
+of all vehicles in each county are electric, giving a truer picture of EV adoption beyond raw counts
+- Expand the analysis to other high-EV adoption states such as California, Oregon, and New York
+- Connect to the live DOE Alternative Fuels Station API to keep the dashboard updated in real time
+- Build a genuinely predictive ML model using independent cross-sectional data — population density, income levels, urban classification — to identify zip codes at risk of becoming underserved

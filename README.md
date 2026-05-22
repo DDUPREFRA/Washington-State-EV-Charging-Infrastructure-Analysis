@@ -77,22 +77,22 @@ This project answers the following business questions:
 **Dashboard 1 — The Problem: Where Are the Gaps?**
 Analyzes EV charging coverage at zip code and county level across Washington State.
 ![Dashboard 1](charts/viz1coveragemap.png)
-🔗 [View Dashboard 1](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard1/Dashboard1TheProblemWhereAretheGaps)
+🔗 [View Dashboard 1](https://public.tableau.com/app/profile/david.dupre7494/viz/Washington_State_EV_Coverage_Analysis_Dashboard1_17794108697300/Dashboard1TheProblemWhereAretheGaps)
 
 **Dashboard 2 — The Scale: How Big is EV Adoption?**
 Examines EV adoption growth, electric vehicle types, and top makes across Washington State.
 ![Dashboard 2](charts/viz2evadoptionscale.png)
-🔗 [View Dashboard 2](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard2/Dashboard2TheScaleHowBigistheEVAdoption)
+🔗 [View Dashboard 2](https://public.tableau.com/app/profile/david.dupre7494/viz/Washington_State_EV_Coverage_Analysis_Dashboard2_17794109496030/Dashboard2TheScaleHowBigistheEVAdoption)
 
 **Dashboard 3 — The Infrastructure: Who Provides Charging?**
 Explores charging network market share, connector types, and DC fast charging availability.
 ![Dashboard 3](charts/viz3chargingnetworks.png)
-🔗 [View Dashboard 3](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard3/Dashboard3TheInfrastructureWhoProvidesCharging)
+🔗 [View Dashboard 3](https://public.tableau.com/app/profile/david.dupre7494/viz/Washington_State_EV_Coverage_Analysis_Dashboard3/Dashboard3TheInfrastructureWhoProvidesCharging)
 
 **Dashboard 4 — Sustainability & Bright Spots**
 Highlights green charging infrastructure, renewable energy stations, and most/least served communities
 ![Dashboard 4](charts/viz4sustainability.png)
-🔗 [View Dashboard 4](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard4/Dashboard4SustainabilityandBrightSpots)
+🔗 [View Dashboard 4](https://public.tableau.com/app/profile/david.dupre7494/viz/Washington_State_EV_Coverage_Analysis_Dashboard4/Dashboard4SustainabiityandBrightSpots)
 
 ---
 

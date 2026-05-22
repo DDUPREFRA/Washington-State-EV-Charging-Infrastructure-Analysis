@@ -76,12 +76,12 @@ This project answers the following business questions:
 
 **Dashboard 1 — The Problem: Where Are the Gaps?**
 Analyzes EV charging coverage at zip code and county level across Washington State.
-![Dashboard 1](charts/viz1coveragegapmap.png)
+![Dashboard 1](charts/viz1coveragemap.png)
 🔗 [View Dashboard 1](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard1/Dashboard1TheProblemWhereAretheGaps)
 
 **Dashboard 2 — The Scale: How Big is EV Adoption?**
 Examines EV adoption growth, electric vehicle types, and top makes across Washington State.
-![Dashboard 2](charts/viz2adoptionscale.png)
+![Dashboard 2](charts/viz2evadoptionscale.png)
 🔗 [View Dashboard 2](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard2/Dashboard2TheScaleHowBigistheEVAdoption)
 
 **Dashboard 3 — The Infrastructure: Who Provides Charging?**

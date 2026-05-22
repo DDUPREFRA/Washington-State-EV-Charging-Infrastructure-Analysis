@@ -12,63 +12,62 @@ This project answers the following business questions:
 
 **Coverage & Infrastructure Gap**
 - Which zip codes and counties have the most critical EV charging infrastructure gaps?
-- Which areas have zero charging infrastructure despite significant EV adoption?
-- Which zip codes are adequately served, and what do they have in common?
 - How does the coverage gap vary between urban and rural counties?
+- Which areas have zero charging infrastructure despite significant EV adoption?
+- Which counties are inadequately served?
+- Which counties are insufficiently served for fast charging?
+  
+  **EV Adoption & Vehicle Analysis**
+- Which counties lead in EV adoption?
+- What is the split between fully electric (BEV) and plug-in hybrid (PHEV) vehicles?
+- Which EV makes dominate Washington State?
+- Has the pace of new station openings kept up with EV adoption growth over time?
 
 **Charging Networks & Technology**
 - Which charging networks dominate the market in Washington State?
 - Which networks lead in DC fast charging vs slow Level 2 charging?
-- Which connector types dominate, and are they compatible with current EVs?
+- Which connector types dominate?
 - Are there counties critically underserved specifically for DC fast charging?
 
-**EV Adoption & Vehicle Analysis**
-- Which counties lead in EV adoption, and what is the average EV density per zip code?
-- What is the split between fully electric (BEV) and plug-in hybrid (PHEV) vehicles?
-- Which EV makes dominate Washington State?
-
-**Sustainability & Growth**
-- Is EV charging infrastructure keeping pace with the growth of EV adoption over time?
+**Sustainability & Bright Spots**
 - How green is Washington State's charging infrastructure?
 - Which counties have the highest concentration of renewable energy charging stations?
-- Has the pace of new station openings kept up with EV adoption growth over time?
+- Which are the most and least served zip codes across Washington State?
   
 **Predictive Analytics**
 - Can we predict which zip codes are at risk of becoming underserved as EV adoption grows?
-  
----
 
+---
+  
 ## Key Findings
 
-**Coverage Gap**
+**Coverage & Infrastructure Gap**
 - EV charging infrastructure follows a **heavily right-skewed distribution:** a small number of zip codes are extremely well served, while the vast majority are critically underserved
 - **91% of Washington State zip codes** (527 out of 581) are classified as underserved based on a threshold of more than 10 EVs per charger
-- **Zip codes 98177 (Seattle), 98053 (Carnation), and 98146 (Burien)**, all in King County, are the most underserved with **up to 1,694 EVs per charger**
-- **Kent (98038)** has **2,436 registered EVs and zero charging stations,** and is the largest completely unserved community in Washington, followed by Carnation (986 EVs) and Lacey (795 EVs)
+- **Kent (98038)** has **2,436 registered EVs and zero charging stations**, the largest completely unserved community in Washington, followed by Carnation (986 EVs) and Lacey (795 EVs)
+- **Island County** has the worst ratio among counties with infrastructure at **119 EVs per charger**, followed by Snohomish at 91.5
+- **King County** has 139,296 EVs but only **15 DC fast chargers**, nearly 9,000 EVs per fast charger, despite being the largest EV market
 
-**Best Served**
-- **Zip codes 98164, 98124, and 98195 (Seattle)** are the best served with ratios as low as **0.05 EVs per charger:** commercial districts are oversupplied while surrounding residential areas are critically underserved
-- **Lincoln County** is among the best served counties for DC fast charging, with only **9.25 EVs per DC fast charger**
-
-**County Level**
-- **King and Snohomish counties** have the highest EV density with **over 1,200 EVs per zip code on average**
-- **King County** has 139,296 EVs but only **15 DC fast chargers** with **nearly 9,000 EVs per fast charger** despite being the largest EV market
-- **Island County** has the worst ratio among counties with infrastructure at **119 EVs per charger**, followed by **Snohomish at 91.5**
-- **Garfield and Ferry counties** have zero EV charging infrastructure despite having registered EVs
-
-**Vehicle Analysis**
+**EV Adoption & Vehicle Analysis**
+- **King and Snohomish counties** lead EV adoption with 139,296 and 35,593 registered EVs: **the two largest EV markets in Washington State**
 - **Battery Electric Vehicles (BEV) represent 80%** of the total EV fleet, with **Tesla as the most popular make at 41% of all registered EVs**
+- EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
 
-**Networks & Connectors**
+**Charging Networks & Technology**
 - **ChargePoint dominates** the network market with **46.5% of all stations**, but **Tesla leads DC fast charging**
 - **J1772 is the most used connector type**, representing nearly **80% of all connectors** in Washington State
+- **Lincoln County** is among the best served counties for DC fast charging, with only **9.25 EVs per DC fast charger**
 
-**Sustainability**
+**Sustainability & Bright Spots**
 - Only **0.31% of charging stations** run on renewable energy sources
-- **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations, each with only one station
+- **Douglas, Jefferson, Whatcom, and Okanogan** are the only counties with green charging stations, each with only one renewable station
+- **Zip codes 98164, 98124, and 98195 (Seattle)** are the best served with ratios as low as **0.05 EVs per charger**
+- **Zip codes 98177 (Seattle), 98053 (Carnation), and 98146 (Burien)**, all in King County, are the most underserved with **up to 1,694 EVs per charger**
 
- **Infrastructure Growth**
-- EV charging station openings in Washington State **peaked around 2021–2022** and have since slowed down
+
+**Predictive Analytics**
+- A **Random Forest classification model** achieved 97.44% accuracy in predicting underserved zip codes — though the high accuracy reflects circular reasoning since the target variable was derived from the same features used for prediction
+- Future work would incorporate independent cross-sectional data to build a genuinely predictive model
 
 ---
 

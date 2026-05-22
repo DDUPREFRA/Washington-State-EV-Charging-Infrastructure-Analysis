@@ -66,7 +66,7 @@ This project answers the following business questions:
 
 
 **Predictive Analytics**
-- A **Random Forest classification model** achieved 97.44% accuracy in predicting underserved zip codes — though the high accuracy reflects circular reasoning since the target variable was derived from the same features used for prediction
+- A **Random Forest classification model** achieved 97.44% accuracy in predicting underserved zip codes, though the high accuracy reflects circular reasoning since the target variable was derived from the same features used for prediction
 - Future work would incorporate independent cross-sectional data to build a genuinely predictive model
 
 ---

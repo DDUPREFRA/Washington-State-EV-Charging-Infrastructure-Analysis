@@ -17,7 +17,7 @@ This project answers the following business questions:
 - Which counties are inadequately served?
 - Which counties are insufficiently served for fast charging?
   
-  **EV Adoption & Vehicle Analysis**
+**EV Adoption & Vehicle Analysis**
 - Which counties lead in EV adoption?
 - What is the split between fully electric (BEV) and plug-in hybrid (PHEV) vehicles?
 - Which EV makes dominate Washington State?

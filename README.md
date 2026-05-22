@@ -44,6 +44,7 @@ This project answers the following business questions:
 **Coverage & Infrastructure Gap**
 - EV charging infrastructure follows a **heavily right-skewed distribution:** a small number of zip codes are extremely well served, while the vast majority are critically underserved
 - **91% of Washington State zip codes** (527 out of 581) are classified as underserved based on a threshold of more than 10 EVs per charger
+> *Note: The threshold of 10 EVs per charger was chosen as a conservative benchmark. Adjusting this threshold would change the proportion of underserved zip codes but not the overall pattern of infrastructure inequality.*
 - **Kent (98038)** has **2,436 registered EVs and zero charging stations**, the largest completely unserved community in Washington, followed by Carnation (986 EVs) and Lacey (795 EVs)
 - **Island County** has the worst ratio among counties with infrastructure at **119 EVs per charger**, followed by Snohomish at 91.5
 - **King County** has 139,296 EVs but only **15 DC fast chargers**, nearly 9,000 EVs per fast charger, despite being the largest EV market

@@ -90,7 +90,7 @@ Explores charging network market share, connector types, and DC fast charging av
 🔗 [View Dashboard 3](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard3/Dashboard3TheInfrastructureWhoProvidesCharging)
 
 **Dashboard 4 — Sustainability & Bright Spots**
-Highlights green charging infrastructure, renewable energy stations, and best served communities.
+Highlights green charging infrastructure, renewable energy stations, and most/least served communities
 ![Dashboard 4](charts/viz4sustainability.png)
 🔗 [View Dashboard 4](https://public.tableau.com/views/Washington_State_EV_Coverage_Analysis_Dashboard4/Dashboard4SustainabilityandBrightSpots)
 
